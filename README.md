@@ -103,6 +103,14 @@ goal: Build impactful web applications and grow as a professional developer
 
 ---
 
+# 🌆 Real Contribution Skyline
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/achrafdev89/achrafdev89/output/assets/contribution-skyline-real.svg" alt="Real Contribution Skyline" width="100%" />
+</p>
+
+---
+
 # 🐍 Contribution Snake
 
 <p align="center">
