@@ -1,0 +1,225 @@
+name: Generate Contribution Skyline
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+        continue-on-error: true
+
+      - name: Prepare branch
+        run: |
+          git checkout output || git checkout --orphan output
+          mkdir -p assets
+
+      - name: Generate skyline from real GitHub contributions
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: achrafdev89
+        run: |
+          python <<'PY'
+          import os
+          import json
+          import math
+          import urllib.request
+
+          username = os.environ["GITHUB_USERNAME"]
+          token = os.environ["GITHUB_TOKEN"]
+
+          query = """
+          query($login: String!) {
+            user(login: $login) {
+              contributionsCollection {
+                contributionCalendar {
+                  weeks {
+                    contributionDays {
+                      contributionCount
+                      date
+                    }
+                  }
+                }
+              }
+            }
+          }
+          """
+
+          payload = json.dumps({
+              "query": query,
+              "variables": {"login": username}
+          }).encode("utf-8")
+
+          req = urllib.request.Request(
+              "https://api.github.com/graphql",
+              data=payload,
+              headers={
+                  "Authorization": f"Bearer {token}",
+                  "Content-Type": "application/json",
+                  "User-Agent": "github-actions"
+              },
+              method="POST"
+          )
+
+          with urllib.request.urlopen(req) as resp:
+              data = json.loads(resp.read().decode("utf-8"))
+
+          if "errors" in data:
+              raise RuntimeError(f"GraphQL error: {data['errors']}")
+
+          weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+
+          # Flatten to daily counts
+          counts = []
+          for week in weeks:
+              for day in week["contributionDays"]:
+                  counts.append(day["contributionCount"])
+
+          # Keep the most recent 42 days for a balanced skyline
+          counts = counts[-42:]
+
+          if not counts:
+              counts = [0] * 42
+
+          max_count = max(counts) if max(counts) > 0 else 1
+
+          width = 1400
+          height = 360
+          ground_y = 285
+          left_pad = 40
+          right_pad = 40
+          bar_gap = 6
+          bar_count = len(counts)
+          usable_width = width - left_pad - right_pad
+          bar_width = max(10, usable_width // bar_count - bar_gap)
+
+          bars = []
+          x = left_pad
+
+          for i, count in enumerate(counts):
+              normalized = count / max_count
+              min_h = 28
+              max_h = 220
+              h = int(min_h + normalized * (max_h - min_h))
+              y = ground_y - h
+
+              glow_strength = 0.35 + normalized * 0.65
+              anim_up = max(6, int(10 + normalized * 18))
+              duration = round(3.8 + (i % 7) * 0.35, 2)
+
+              rect = f'''
+              <rect x="{x}" y="{y}" width="{bar_width}" height="{h}" rx="2"
+                    fill="url(#buildingGradient)" opacity="{glow_strength:.2f}">
+                <animate attributeName="height" values="{h};{h+anim_up};{h}" dur="{duration}s" repeatCount="indefinite"/>
+                <animate attributeName="y" values="{y};{y-anim_up};{y}" dur="{duration}s" repeatCount="indefinite"/>
+              </rect>
+              '''
+              bars.append(rect)
+
+              # Add windows based on contribution intensity
+              window_rows = max(1, h // 20)
+              window_cols = max(1, bar_width // 8)
+              windows = []
+              for r in range(window_rows):
+                  for c in range(window_cols):
+                      wx = x + 3 + c * 8
+                      wy = y + 5 + r * 16
+                      if wy + 5 < ground_y and wx + 4 < x + bar_width - 2:
+                          opacity = min(0.95, 0.25 + normalized * 0.7)
+                          delay = round(((i + r + c) % 10) * 0.25, 2)
+                          windows.append(f'''
+                          <rect x="{wx}" y="{wy}" width="4" height="6" rx="1" fill="#93f7ff" opacity="{opacity:.2f}">
+                            <animate attributeName="opacity" values="{max(0.15, opacity-0.35):.2f};{opacity:.2f};{max(0.15, opacity-0.35):.2f}" dur="2.6s" begin="{delay}s" repeatCount="indefinite"/>
+                          </rect>
+                          ''')
+              bars.extend(windows)
+              x += bar_width + bar_gap
+
+          stars = []
+          star_positions = [
+              (90, 48), (180, 30), (280, 56), (390, 36), (520, 28),
+              (650, 44), (770, 34), (920, 52), (1080, 32), (1240, 46)
+          ]
+          for idx, (sx, sy) in enumerate(star_positions):
+              dur = round(2.4 + idx * 0.2, 2)
+              stars.append(f'''
+              <circle cx="{sx}" cy="{sy}" r="1.7" fill="#d8f3ff">
+                <animate attributeName="opacity" values="0.15;1;0.15" dur="{dur}s" repeatCount="indefinite"/>
+              </circle>
+              ''')
+
+          svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#050816"/>
+                <stop offset="55%" stop-color="#0c1228"/>
+                <stop offset="100%" stop-color="#050816"/>
+              </linearGradient>
+
+              <linearGradient id="buildingGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#5ee7ff"/>
+                <stop offset="45%" stop-color="#4f8cff"/>
+                <stop offset="100%" stop-color="#172554"/>
+              </linearGradient>
+
+              <linearGradient id="groundGlow" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0"/>
+                <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8"/>
+                <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+              </linearGradient>
+
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="5" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+
+            <rect width="{width}" height="{height}" fill="url(#bgGradient)"/>
+
+            <g opacity="0.18">
+              <path d="M0 95 Q220 55 440 95 T880 95 T1400 95" stroke="#38bdf8" stroke-width="2" fill="none"/>
+              <path d="M0 130 Q260 90 520 130 T1040 130 T1400 130" stroke="#7c3aed" stroke-width="1.6" fill="none"/>
+            </g>
+
+            <g>{"".join(stars)}</g>
+
+            <g filter="url(#glow)">
+              {"".join(bars)}
+            </g>
+
+            <rect x="0" y="{ground_y}" width="{width}" height="{height-ground_y}" fill="#040814"/>
+            <rect x="0" y="{ground_y-2}" width="{width}" height="4" fill="url(#groundGlow)">
+              <animate attributeName="opacity" values="0.45;1;0.45" dur="3.2s" repeatCount="indefinite"/>
+            </rect>
+
+            <text x="{width/2}" y="332" text-anchor="middle" fill="#9bdcff"
+                  font-family="Segoe UI, Arial, sans-serif" font-size="20" letter-spacing="3">
+              ACHRAFDEV89 • REAL CONTRIBUTION SKYLINE
+            </text>
+          </svg>'''
+
+          os.makedirs("assets", exist_ok=True)
+          with open("assets/contribution-skyline-real.svg", "w", encoding="utf-8") as f:
+              f.write(svg)
+          PY
+
+      - name: Commit skyline
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-skyline-real.svg
+          git commit -m "Update real contribution skyline" || echo "No changes to commit"
+          git push origin output
