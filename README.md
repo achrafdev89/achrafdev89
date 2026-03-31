@@ -121,24 +121,91 @@ goal: Build impactful web applications and grow as a professional developer
 
 ---
 
-# 🚧 Featured Projects
+# 🚀 Featured Projects
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1200&color=00F7FF&center=true&vCenter=true&width=600&lines=Projects+Coming+Soon...;Building+Some+Cool+Things+Right+Now...;Stay+Tuned+🚀" />
+<table>
+<tr>
+
+<td width="50%">
+
+### 🌤️ 3D Weather Dashboard
+
+<a href="https://3d-weather-dashboard.netlify.app">
+<img src="https://raw.githubusercontent.com/achrafdev89/weather-dashboard/main/screenshots/demo.gif" width="100%">
+</a>
 
 <br><br>
 
-<img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="400"/>
+Modern weather app with animated backgrounds, hourly forecast, and responsive UI.
 
 <br><br>
 
-### 🔧 Current Projects In Development
+<a href="https://3d-weather-dashboard.netlify.app">
+<img src="https://img.shields.io/badge/Live%20Demo-Netlify-00C853?style=for-the-badge&logo=netlify&logoColor=white"/>
+</a>
 
-🚀 AI Image Generator
-👕 Custom Shirt Designer
-🎮 JavaScript Learning Game
-🌐 Personal Developer Portfolio
+<a href="https://github.com/achrafdev89/weather-dashboard">
+<img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</td>
+
+<td width="50%">
+
+### 🤖 AI Image Generator
+
+<img src="https://media.giphy.com/media/6cTvh0645jLVRd4Cw2/giphy.gif" width="100%"/>
+
+<br>
+
+🚧 **Project currently in development**
+
+<br>
+
+<img src="https://img.shields.io/badge/Status-Coming%20Soon-blue?style=for-the-badge"/>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
+
+### 🎮 JavaScript Learning Game
+
+<img src="https://media.giphy.com/media/6cTvh0645jLVRd4Cw2/giphy.gif" width="100%"/>
+
+<br>
+
+🚧 **Interactive JavaScript learning game**
+
+<br>
+
+<img src="https://img.shields.io/badge/Status-Coming%20Soon-blue?style=for-the-badge"/>
+
+</td>
+
+<td width="50%">
+
+### 👕 Custom Shirt Designer
+
+<img src="https://media.giphy.com/media/6cTvh0645jLVRd4Cw2/giphy.gif" width="100%"/>
+
+<br>
+
+🚧 **Design your own shirts online**
+
+<br>
+
+<img src="https://img.shields.io/badge/Status-Coming%20Soon-blue?style=for-the-badge"/>
+
+</td>
+
+</tr>
+</table>
 
 </div>
 
