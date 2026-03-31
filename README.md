@@ -48,11 +48,7 @@ goal: Build impactful web applications and grow as a professional developer
 
 # 🚀 Tech Stack
 
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,git,github,vscode,figma" />
-
-</p>
+<p align="center"> <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,git,github,vscode,figma" /> </p>
 
 <br>
 
@@ -71,15 +67,6 @@ goal: Build impactful web applications and grow as a professional developer
 
 ---
 
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=achrafdev89&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=achrafdev89&layout=compact&theme=tokyonight"/>
-
-</p>
 
 ---
 
@@ -100,6 +87,14 @@ goal: Build impactful web applications and grow as a professional developer
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=achrafdev89&theme=tokyo-night"/>
 
 </p>
+
+---
+
+---
+
+# 🏁 Coding Activity Race
+
+<p align="center"> <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=achrafdev89&theme=tokyonight"/> </p>
 
 ---
 
@@ -131,10 +126,7 @@ goal: Build impactful web applications and grow as a professional developer
 <td width="50%">
 
 ### 🌤️ 3D Weather Dashboard
-
-<a href="https://3d-weather-dashboard.netlify.app">
-<img src="https://raw.githubusercontent.com/achrafdev89/weather-dashboard/main/screenshots/demo.gif" width="100%">
-</a>
+<a href="https://3d-weather-dashboard.netlify.app"> <img src="https://raw.githubusercontent.com/achrafdev89/weather-dashboard/main/screenshots/demo.gif" width="100%"> </a>
 
 <br><br>
 
@@ -142,37 +134,15 @@ Modern weather app with animated backgrounds, hourly forecast, and responsive UI
 
 <br><br>
 
-<a href="https://3d-weather-dashboard.netlify.app">
-<img src="https://img.shields.io/badge/Live%20Demo-Netlify-00C853?style=for-the-badge&logo=netlify&logoColor=white"/>
-</a>
-
-<a href="https://github.com/achrafdev89/weather-dashboard">
-<img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-</td>
-
-<td width="50%">
+<a href="https://3d-weather-dashboard.netlify.app"> <img src="https://img.shields.io/badge/Live%20Demo-Netlify-00C853?style=for-the-badge&logo=netlify&logoColor=white"/> </a> <a href="https://github.com/achrafdev89/weather-dashboard"> <img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github"/> </a> </td> <td width="50%">
 
 ### 🤖 AI Image Generator
 
-<img src="https://media.giphy.com/media/6cTvh0645jLVRd4Cw2/giphy.gif" width="100%"/>
+<img src="https://media.giphy.com/media/6cTvh0645jLVRd4Cw2/giphy.gif" width="100%"/> <br>
 
-<br>
+🚧 Project currently in development
 
-🚧 **Project currently in development**
-
-<br>
-
-<img src="https://img.shields.io/badge/Status-Coming%20Soon-blue?style=for-the-badge"/>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%">
+<br> <img src="https://img.shields.io/badge/Status-Coming%20Soon-blue?style=for-the-badge"/> </td> </tr> <tr> <td width="50%">
 
 ### 🎮 JavaScript Learning Game
 
