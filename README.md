@@ -46,6 +46,7 @@ goal: Build impactful web applications and grow as a professional developer
 
 ---
 
+
 # 🚀 Tech Stack
 
 <p align="center"> <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,git,github,vscode,figma" /> </p>
@@ -144,13 +145,13 @@ Modern weather app with animated backgrounds, hourly forecast, and responsive UI
 
 <br> <img src="https://img.shields.io/badge/Status-Coming%20Soon-blue?style=for-the-badge"/> </td> </tr> <tr> <td width="50%">
 
-### 🎮 JavaScript Learning Game
+### 🕵️ GitHub Developer Finder
 
 <img src="https://media.giphy.com/media/6cTvh0645jLVRd4Cw2/giphy.gif" width="100%"/>
 
 <br>
 
-🚧 **Interactive JavaScript learning game**
+🚧 **Project currently in development**
 
 <br>
 
@@ -160,13 +161,13 @@ Modern weather app with animated backgrounds, hourly forecast, and responsive UI
 
 <td width="50%">
 
-### 👕 Custom Shirt Designer
+### 📋 TaskFlow – Kanban Task Manager
 
 <img src="https://media.giphy.com/media/6cTvh0645jLVRd4Cw2/giphy.gif" width="100%"/>
 
 <br>
 
-🚧 **Design your own shirts online**
+🚧 **Project currently in development**
 
 <br>
 
@@ -180,6 +181,7 @@ Modern weather app with animated backgrounds, hourly forecast, and responsive UI
 </div>
 
 ---
+
 
 # 🌐 Connect With Me
 
