@@ -1,0 +1,824 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="55%" stop-color="#0c1228"/>
+      <stop offset="100%" stop-color="#050816"/>
+    </linearGradient>
+
+    <linearGradient id="buildingGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5ee7ff"/>
+      <stop offset="45%" stop-color="#4f8cff"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+
+    <linearGradient id="groundGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="360" fill="url(#bgGradient)"/>
+
+  <g opacity="0.18">
+    <path d="M0 95 Q220 55 440 95 T880 95 T1400 95" stroke="#38bdf8" stroke-width="2" fill="none"/>
+    <path d="M0 130 Q260 90 520 130 T1040 130 T1400 130" stroke="#7c3aed" stroke-width="1.6" fill="none"/>
+  </g>
+
+  <g>
+    <circle cx="90" cy="48" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="180" cy="30" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="280" cy="56" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="390" cy="36" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="3.0s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="520" cy="28" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="650" cy="44" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="770" cy="34" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="920" cy="52" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="1080" cy="32" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="4.0s" repeatCount="indefinite"/>
+    </circle>
+    
+    <circle cx="1240" cy="46" r="1.7" fill="#d8f3ff">
+      <animate attributeName="opacity" values="0.15;1;0.15" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    </g>
+
+  <g filter="url(#glow)">
+    
+    <rect x="40" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="43" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="51" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="71" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.15s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="74" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="82" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="102" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="105" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="113" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="133" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.85s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="136" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="144" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="164" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="167" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="175" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="195" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.55s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.55s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="198" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="206" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="226" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.9s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="229" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="237" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="257" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="260" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="268" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="288" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.15s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="291" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="299" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="319" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="322" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="330" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="350" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.85s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="353" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="361" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="381" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="384" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="392" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="412" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.55s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.55s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="415" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="423" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="443" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.9s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="446" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="454" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="474" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="477" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="485" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="505" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.15s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="508" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="516" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="536" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="539" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="547" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="567" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.85s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="570" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="578" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="598" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="601" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="609" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="629" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.55s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.55s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="632" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="640" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="660" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.9s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="663" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="671" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="691" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="694" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="702" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="722" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.15s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="725" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="733" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="753" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="756" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="764" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="784" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.85s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="787" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="795" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="815" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="818" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="826" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="846" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.55s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.55s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="849" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="857" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="877" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.9s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="880" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="888" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="908" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="911" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="919" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="939" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.15s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="942" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="950" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="970" y="65" width="25" height="220" rx="2"
+          fill="url(#buildingGradient)" opacity="1.00">
+      <animate attributeName="height" values="220;248;220" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="65;37;65" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="973" y="70" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="70" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="86" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="86" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="102" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="102" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="118" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="118" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="134" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="134" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="150" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="150" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="166" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="166" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="182" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="182" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="198" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="198" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="214" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="214" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="973" y="230" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="981" y="230" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.95">
+                  <animate attributeName="opacity" values="0.60;0.95;0.60" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1001" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.85s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1004" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1012" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1032" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1035" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1043" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1063" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.55s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.55s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1066" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1074" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1094" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.9s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1097" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1105" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1125" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="3.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1128" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1136" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1156" y="185" width="25" height="100" rx="2"
+          fill="url(#buildingGradient)" opacity="0.59">
+      <animate attributeName="height" values="100;116;100" dur="4.15s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="185;169;185" dur="4.15s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1159" y="190" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="1.5s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1167" y="190" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1159" y="206" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1167" y="206" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1159" y="222" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1167" y="222" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1159" y="238" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1167" y="238" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1159" y="254" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1167" y="254" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1187" y="185" width="25" height="100" rx="2"
+          fill="url(#buildingGradient)" opacity="0.59">
+      <animate attributeName="height" values="100;116;100" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="185;169;185" dur="4.5s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1190" y="190" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1198" y="190" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1190" y="206" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1198" y="206" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1190" y="222" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1198" y="222" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1190" y="238" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1198" y="238" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1190" y="254" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1198" y="254" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.51">
+                  <animate attributeName="opacity" values="0.16;0.51;0.16" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1218" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="4.85s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="4.85s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1221" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1229" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1249" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.2s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1252" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="2.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1260" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1280" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.55s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.55s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1283" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.0s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1291" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+    <rect x="1311" y="257" width="25" height="28" rx="2"
+          fill="url(#buildingGradient)" opacity="0.35">
+      <animate attributeName="height" values="28;38;28" dur="5.9s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="257;247;257" dur="5.9s" repeatCount="indefinite"/>
+    </rect>
+    
+                <rect x="1314" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.25s" repeatCount="indefinite"/>
+                </rect>
+                
+                <rect x="1322" y="262" width="4" height="6" rx="1" fill="#93f7ff" opacity="0.25">
+                  <animate attributeName="opacity" values="0.15;0.25;0.15" dur="2.6s" begin="0.5s" repeatCount="indefinite"/>
+                </rect>
+                
+  </g>
+
+  <rect x="0" y="285" width="1400" height="75" fill="#040814"/>
+  <rect x="0" y="283" width="1400" height="4" fill="url(#groundGlow)">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="700.0" y="332" text-anchor="middle" fill="#9bdcff"
+        font-family="Segoe UI, Arial, sans-serif" font-size="20" letter-spacing="3">
+    ACHRAFDEV89 • REAL CONTRIBUTION SKYLINE
+  </text>
+</svg>
