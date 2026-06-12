@@ -139,11 +139,23 @@ Modern weather app with animated backgrounds, hourly forecast, and responsive UI
 
 ### 🤖 AI Image Generator
 
-<img src="https://media.giphy.com/media/6cTvh0645jLVRd4Cw2/giphy.gif" width="100%"/> <br>
+<a href="visionforge-ash.netlify.app">
+  <img src="https://raw.githubusercontent.com/achrafdev89/ai-image-generator/main/screenshots/generator.png" width="100%">
+</a>
 
-🚧 Project currently in development
+<br><br>
 
-<br> <img src="https://img.shields.io/badge/Status-Coming%20Soon-blue?style=for-the-badge"/> </td> </tr> <tr> <td width="50%">
+AI-powered image generation platform featuring modern glassmorphism UI, 3D motion effects, responsive design, prompt presets, local gallery, and OpenAI integration.
+
+<br><br>
+
+<a href="visionforge-ash.netlify.app">
+  <img src="https://img.shields.io/badge/🚀_Live_Demo-Netlify-00C853?style=for-the-badge&logo=netlify&logoColor=white"/>
+</a>
+
+<a href="https://github.com/achrafdev89/ai-image-generator">
+  <img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
 
 ### 🕵️ GitHub Developer Finder
 
