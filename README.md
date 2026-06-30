@@ -47,7 +47,7 @@ current_build: ReelNova — cinematic movie discovery platform
 mission: Build clean, useful, and beautiful web applications
 ```
 
-I enjoy building interfaces that feel polished, responsive, and alive. My goal is to create frontend projects that do more than work, they feel like real products.
+I enjoy building interfaces that feel polished, responsive, and alive. My goal is to create frontend projects that do more than work — they feel like real products.
 
 </td>
 <td width="45%" valign="top">
@@ -108,7 +108,7 @@ I enjoy building interfaces that feel polished, responsive, and alive. My goal i
 <td width="50%" valign="top">
 
 ### 🎬 ReelNova
-<img src="https://raw.githubusercontent.com/achrafdev89/reelnova/main/docs/demo.gif" width="100%" alt="VisionForge walkthrough"/>
+<img src="https://raw.githubusercontent.com/achrafdev89/reelnova/main/docs/demo.gif" width="100%" alt="ReelNova walkthrough"/>
 
 <br><br>
 A premium cinematic movie and TV discovery platform powered by TMDB. Built with smooth animations, movie details, favorites, responsive rails, search, and a streaming-style UI.
@@ -166,7 +166,7 @@ AI image generation studio with prompt tools, gallery UI, glassmorphism styling,
 
 ### 🌤️ Weather Dashboard
 
-<img src="https://raw.githubusercontent.com/achrafdev89/weather-dashboard/main/screenshots/demo.gif" width="100%" alt="VisionForge walkthrough"/>
+<img src="https://raw.githubusercontent.com/achrafdev89/weather-dashboard/main/screenshots/demo.gif" width="100%" alt="Weather Dashboard walkthrough"/>
 
 <br><br>
 A responsive weather application with animated backgrounds, city search, forecast data, and a clean dashboard layout.
@@ -191,14 +191,71 @@ A responsive weather application with animated backgrounds, city search, forecas
 </td>
 <td width="50%" valign="top">
 
+### 🧭 GitHub Developer Finder
+
+<img src="https://raw.githubusercontent.com/achrafdev89/github-dev-finder/main/assets/appdemo.gif" width="100%" alt="GitHub Developer Finder walkthrough"/>
+
+<br><br>
+Discover, analyze, and compare GitHub developers — explore profiles, repositories, language breakdowns, and contribution activity in a premium, dark-mode dashboard.
+
+**Highlights**
+
+- Developer search powered by the GitHub API
+- Detailed GitHub profile analytics
+- Repository explorer with README preview
+- Developer comparison dashboard
+- Trending repositories by language
+- Animated language charts and statistics
+- Contribution activity visualization
+- GitHub OAuth authentication
+- MongoDB-backed favorites and search history
+- Private user dashboard
+- Premium dark-mode glassmorphism UI
+- Framer Motion page transitions and micro-interactions
+- Fully responsive mobile-first layout
+- Automated screenshots and demo GIF with Playwright
+
+<p align="center">
+<a href="https://github.com/achrafdev89/github-dev-finder">
+  <img src="https://img.shields.io/badge/Live_Demo-Netlify-00C853?style=for-the-badge&logo=netlify&logoColor=white" alt="GitHub Developer Finder live demo" />
+</a>
+<a href="https://github.com/achrafdev89/github-dev-finder">
+  <img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Developer Finder source code" />
+</a>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2" valign="top">
+
+<br>
+
+<div align="center">
+
 ### 🧩 Next Builds
 
 Projects I am building next to expand my frontend portfolio:
 
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
 - 💼 **JobTracker Pro** — job application tracker with Kanban board
 - 🛒 **Modern E-commerce UI** — product filtering, cart, and checkout flow
+
+</td>
+<td width="50%" valign="top">
+
 - 🧑‍💻 **DevSpace Dashboard** — developer productivity dashboard
 - 🎨 **AI Prompt Studio** — prompt organizer for creators
+
+</td>
+</tr>
+</table>
 
 <p align="center">
 <a href="https://github.com/achrafdev89?tab=repositories">
